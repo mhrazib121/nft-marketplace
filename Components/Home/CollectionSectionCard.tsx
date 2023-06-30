@@ -1,10 +1,7 @@
 import { Button } from "@Components/Common";
+import { ICollectionSectionCard } from "@Interface";
 import { upDownGreen } from "@public/assets/icon";
 import Image from "next/image";
-interface ICollectionSectionCard {
-  img: JSX.Element;
-  profileImg: JSX.Element;
-}
 
 export const CollectionSectionCard = ({
   data,
