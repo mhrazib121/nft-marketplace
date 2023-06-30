@@ -25,10 +25,10 @@ export const Footer = () => {
   );
 };
 
-export * from "./CompanySupport";
 export * from "./ContactDetails";
 export * from "./ContactInfo";
-export * from "./DownloadApp";
 export * from "./FooterTitle";
 export * from "./MainFooterContainer";
 export * from "./SocialMediaLinks";
+export * from "./MarketplaceAccount";
+export * from "./SubscribeBox";

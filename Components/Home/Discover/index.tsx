@@ -7,14 +7,14 @@ export const Discover = () => {
   return (
     <div className="bg-[#d9e0ec7a]">
       <Container>
-        <MainContainer>
+        <MainContainer isRemoveMargin>
           <h1 className=" text-center lg:text-left text-[26px] md:text-[34px] font-bold mb-6">
             Discover more NFTs
           </h1>
           <div className="my-8 hidden md:block">
             <FilterBar />
           </div>
-          <div className="w-[100%] flex justify-center bg-red-100">
+          <div className="w-[100%] flex justify-center">
             <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
               {discover.map((data, i) => (
                 <DiscoverCard data={data} key={i} />

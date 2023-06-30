@@ -8,5 +8,7 @@ export interface InputFieldProps {
   placeholder?: string;
   width?: string;
   icon?: string;
+  height?: string;
+  button?: JSX.Element;
   handleOnChange: (e: ChangeEvent<HTMLInputElement>) => void;
 }

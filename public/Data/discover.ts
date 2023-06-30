@@ -31,4 +31,64 @@ export const discover: IDiscover[] = [
     mainImage: discover4,
     personImg: [person1, person2, person3, person4],
   },
+  {
+    name: "ArtCrypto",
+    mainImage: discover3,
+    personImg: [person1, person2, person3, person4],
+  },
+  {
+    name: "This NFT",
+    mainImage: discover1,
+    personImg: [person1, person2, person3, person4],
+  },
+  {
+    name: "NameCrypto",
+    mainImage: discover4,
+    personImg: [person1, person2, person3, person4],
+  },
+  {
+    name: "KingCrypto",
+    mainImage: discover2,
+    personImg: [person1, person2, person3, person4],
+  },
+  {
+    name: "ArtCrypto",
+    mainImage: discover1,
+    personImg: [person1, person2, person3, person4],
+  },
+  {
+    name: "This NFT",
+    mainImage: discover4,
+    personImg: [person1, person2, person3, person4],
+  },
+  {
+    name: "NameCrypto",
+    mainImage: discover2,
+    personImg: [person1, person2, person3, person4],
+  },
+  {
+    name: "KingCrypto",
+    mainImage: discover3,
+    personImg: [person1, person2, person3, person4],
+  },
+  {
+    name: "ArtCrypto",
+    mainImage: discover2,
+    personImg: [person1, person2, person3, person4],
+  },
+  {
+    name: "This NFT",
+    mainImage: discover4,
+    personImg: [person1, person2, person3, person4],
+  },
+  {
+    name: "NameCrypto",
+    mainImage: discover3,
+    personImg: [person1, person2, person3, person4],
+  },
+  {
+    name: "KingCrypto",
+    mainImage: discover1,
+    personImg: [person1, person2, person3, person4],
+  },
 ];
