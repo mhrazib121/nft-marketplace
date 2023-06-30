@@ -5,11 +5,11 @@ import { DetailsSection } from "./DetailsSection";
 import { ImageSection } from "./ImageSection";
 
 export const CollectionFeature = () => {
-  // const data =
   return (
     <Container>
       <MainContainer>
         <Title title="Collection Featured NFTs" position="start" />
+        <br />
         <div className=" w-full justify-center mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  mx-auto gap-6 ">
             {CollectionFeatureData.map((p, i) => (

@@ -9,6 +9,7 @@ import topCollection2 from "./topCollection2.svg";
 import topCollection3 from "./topCollection3.svg";
 import topCollection4 from "./topCollection4.svg";
 import topCollection5 from "./topCollection5.svg";
+import CreateAndSellImage from "./sellImage.svg";
 
 export {
   collection1,
@@ -22,4 +23,5 @@ export {
   topCollection3,
   topCollection4,
   topCollection5,
+  CreateAndSellImage,
 };

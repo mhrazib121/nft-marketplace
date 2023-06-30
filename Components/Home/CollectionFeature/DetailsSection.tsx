@@ -6,7 +6,7 @@ import Image from "next/image";
 export const DetailsSection = ({ data }: { data: ICollectionFeature }) => {
   return (
     <div className="my-12">
-      <Title position="start" title={data.title} />
+      <Title text="sm" position="start" title={data.title} />
       <div className="flex justify-between mt-4">
         <div className="flex items-center gap-2 ">
           <Image src={data.profileImg} alt="" />
