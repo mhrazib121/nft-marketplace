@@ -1,6 +1,5 @@
 "use client";
 
-import { Container } from "@Components/Common";
 import { HeroSection } from "@Components/HeroSection";
 import {
   AboutHome,

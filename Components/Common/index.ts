@@ -1,6 +1,5 @@
 "use client";
 
-export * from "./BackgroundImage";
 export * from "./Button";
 export * from "./CommonText";
 export * from "./Container";
