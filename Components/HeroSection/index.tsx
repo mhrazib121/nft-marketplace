@@ -20,8 +20,8 @@ export const HeroSection = () => {
   ];
   return (
     <Container>
-      <div className="flex justify-between my-16 ">
-        <div className="flex flex-col justify-between">
+      <div className="flex flex-col-reverse md:flex-row justify-between my-16 ">
+        <div className="flex flex-col justify-between mt-8 md:mt-0">
           <Title
             position="start"
             title="Discover, and collect Digital Art  NFTs"

@@ -4,7 +4,7 @@ import { FooterTitle } from "./FooterTitle";
 export const SubscribeBox = () => {
   const handleOnChange = () => {};
   return (
-    <div className="w-[380px] md:w-[65%] lg:w-[25%] mt-8">
+    <div className="w-[380px] md:w-[65%] lg:w-[25%] mt-8 lg:mt-0">
       <FooterTitle className="mb-6">Stay in the loop</FooterTitle>
       <CommonText text="lg">
         Join our mailing list to stay in the loop with our newest feature

@@ -15,7 +15,7 @@ export const ContactDetails = () => {
         </CommonText>
       </div>
 
-      <ContactInfo />
+      {/* <ContactInfo /> */}
     </div>
   );
 };

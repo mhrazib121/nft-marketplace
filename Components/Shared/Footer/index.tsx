@@ -1,6 +1,6 @@
 "use client";
 
-import { CommonText, Container } from "@Components/Common";
+import { CommonText, Container, LineBreak } from "@Components/Common";
 import { useIgnorePate } from "@hooks";
 import MainFooterContainer from "./MainFooterContainer";
 
@@ -9,15 +9,12 @@ export const Footer = () => {
 
   return (
     <footer className={`${ignorePath && "hidden"}`}>
-      <section className="bg-gradient-to-t to-base-200 from-base-100 pt-[60px]">
+      <section className=" pt-[60px]">
         <MainFooterContainer />
-
-        <div className="border-t border-primary">
-          <Container className="flex justify-between items-center pt-5 pb-6">
-            <CommonText>
-              Copyright &copy; {new Date().getFullYear()} ConnectDesk
-            </CommonText>
-            <CommonText>All rights reserved</CommonText>
+        <div className="mt-8">
+          <LineBreak />
+          <Container className="flex justify-center items-center pt-5 pb-6">
+            <CommonText>Copyright © 2022 Avi Yansah</CommonText>
           </Container>
         </div>
       </section>
@@ -29,6 +26,6 @@ export * from "./ContactDetails";
 export * from "./ContactInfo";
 export * from "./FooterTitle";
 export * from "./MainFooterContainer";
-export * from "./SocialMediaLinks";
 export * from "./MarketplaceAccount";
+export * from "./SocialMediaLinks";
 export * from "./SubscribeBox";

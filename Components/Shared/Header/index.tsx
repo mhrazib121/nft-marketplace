@@ -16,7 +16,7 @@ export const Header = () => {
           <MenuItems />
         </div>
         <div className="flex justify-center items-center">
-          <div className="flex gap-2 justify-center items-center ">
+          <div className="hidden md:flex gap-2 justify-center items-center ">
             <SearchBox />
             <Button rounded variant="primary">
               Upload

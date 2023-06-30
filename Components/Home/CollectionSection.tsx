@@ -1,21 +1,14 @@
-import { Container } from "@Components/Common";
+import { Container, MainContainer } from "@Components/Common";
+import { CollectionData } from "@public/Data";
 import { upDown } from "@public/assets/icon";
-import {
-  collection1,
-  collection2,
-  collection3,
-  collection4,
-  profile,
-} from "@public/assets/image";
 import Image from "next/image";
 import { CollectionSectionCard } from "./CollectionSectionCard";
 import { TopCollectionList } from "./TopCollectionSection";
-import { CollectionData } from "@public/Data";
 
 export const CollectionSection = () => {
   return (
     <Container>
-      <>
+      <MainContainer>
         <div className="lg:flex justify-between">
           <div className="w-full md:flex md:gap-8 lg:gap-16 justify-center lg:w-[65%] md:p-8">
             <div className=" flex justify-center ">
@@ -56,7 +49,7 @@ export const CollectionSection = () => {
           {/* Top Collection List Section */}
           <TopCollectionList />
         </div>
-      </>
+      </MainContainer>
     </Container>
   );
 };
