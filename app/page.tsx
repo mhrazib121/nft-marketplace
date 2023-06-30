@@ -1,10 +1,13 @@
 "use client";
 
 import { CommonText } from "@Components/Common";
+import { HeroSection } from "@Components/HeroSection";
+import { AboutHome } from "@Components/Home";
 
 const Home = () => (
   <main>
-    <p>home page</p>
+    <HeroSection />
+    <AboutHome />
   </main>
 );
 
