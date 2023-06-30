@@ -1,3 +1,4 @@
+import { LineBreak } from "@Components/Common";
 import Image, { StaticImageData } from "next/image";
 
 export const CollectionListCard = ({
@@ -22,7 +23,7 @@ export const CollectionListCard = ({
           <p className="text-primary">+26.52%</p>
         </div>
       </div>
-      <div className="w-full h-[1px] bg-neutral opacity-20"></div>
+      <LineBreak />
     </div>
   );
 };

@@ -7,6 +7,7 @@ import {
   CollectionFeature,
   CollectionSection,
   CreateAndSellSection,
+  Discover,
 } from "@Components/Home";
 
 const Home = () => (
@@ -16,6 +17,7 @@ const Home = () => (
     <CollectionSection />
     <CollectionFeature />
     <CreateAndSellSection />
+    <Discover />
   </main>
 );
 

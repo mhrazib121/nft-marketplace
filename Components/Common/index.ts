@@ -8,3 +8,4 @@ export * from "./InputField";
 export * from "./LinkButton";
 export * from "./Logo";
 export * from "./MainContainer";
+export * from "./LineBreak";
