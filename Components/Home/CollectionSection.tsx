@@ -1,12 +1,19 @@
-import { Button, Container } from "@Components/Common";
+import { Container } from "@Components/Common";
+import { Title } from "@Components/Common/Title";
 import {
   collection1,
   collection2,
   collection3,
   collection4,
   profile,
+  topCollection1,
+  topCollection2,
+  topCollection3,
+  topCollection4,
+  topCollection5,
 } from "@public/assets/image";
 import Image from "next/image";
+import { CollectionSectionCard } from "./CollectionSectionCard";
 
 export const CollectionSection = () => {
   const data = [
@@ -27,6 +34,34 @@ export const CollectionSection = () => {
       profileImg: <Image src={profile} alt="" />,
     },
   ];
+
+  const topCollectionData = [
+    {
+      name: "CryptoFunks",
+      img: topCollection1,
+      bid: "19,769.39",
+    },
+    {
+      name: "Cryptix",
+      img: topCollection2,
+      bid: "2,769.39",
+    },
+    {
+      name: "Frensware",
+      img: topCollection3,
+      bid: "9,232.39",
+    },
+    {
+      name: "PunkArt",
+      img: topCollection4,
+      bid: "3,769.39",
+    },
+    {
+      name: "Art Crypto",
+      img: topCollection5,
+      bid: "10,769.39",
+    },
+  ];
   return (
     <Container>
       <div className="flex justify-between">
@@ -36,7 +71,7 @@ export const CollectionSection = () => {
             <div className="flex gap-2">
               {data[0].profileImg}
               <div>
-                <p>The Futr Abstr</p>
+                <h3 className="text-lg font-bold">The Futr Abstr</h3>
                 <p>10 in the stock</p>
               </div>
               <div>
@@ -51,28 +86,20 @@ export const CollectionSection = () => {
         <div className="">
           {data.slice(1).map((p) => (
             <>
-              <div className="flex gap-3 my-2">
-                <div className="h-[147px]">{p.img}</div>
-                <div className=" flex justify-between flex-col py-2">
-                  <h3 className="text-lg font-bold">The Futr Abstr</h3>
-                  <div className="flex gap-2">
-                    {p.profileImg}
-
-                    <p>0.25 ETH</p>
-                    <p>1 of 8</p>
-                  </div>
-                  <div>
-                    <Button rounded variant="primary">
-                      Place a bid
-                    </Button>
-                  </div>
-                </div>
-              </div>
+              <CollectionSectionCard data={p} />
             </>
           ))}
         </div>
       </div>
-      <div></div>
+
+      {/* Top Section */}
+      <div>
+        <Title
+          title="Top Collection"
+          position="start"
+          subText={<span className="text-primary">Last 7 days</span>}
+        />
+      </div>
     </Container>
   );
 };
