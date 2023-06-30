@@ -10,13 +10,13 @@ import {
 } from "@Components/Home";
 
 const Home = () => (
-  <Container>
+  <main>
     <HeroSection />
     <AboutHome />
     <CollectionSection />
     <CollectionFeature />
     <CreateAndSellSection />
-  </Container>
+  </main>
 );
 
 export default Home;
